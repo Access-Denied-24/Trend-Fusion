@@ -1,0 +1,8 @@
+.loader{
+  /* border-style: solid;  */
+  position: relative;
+  top: 50vh;
+  left: 50vw;
+
+  color: blue;
+}

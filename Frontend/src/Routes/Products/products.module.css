@@ -1,0 +1,91 @@
+.cardContainer{
+  /* border-style: solid; */
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  gap: 10px;
+  text-align: center;
+
+  box-shadow: 0 0 6px 2px rgba(0,0,0,0.2);
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.singleCard{
+  width: calc(33.33% - 10px);
+  /* width: 35%; */
+  overflow: hidden;
+  box-sizing: border-box;
+  background: none;
+
+  /* border-style: solid; */
+  border: none;
+  box-shadow: 0 0 6px 4px rgba(0,0,0,0.2);
+  margin: 5px 0;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+
+.singleCard:hover{
+  width: calc(33.33% - 20px);
+
+}
+
+img{
+  width: 100%;
+  /* border-style: solid; */
+}
+
+.cardContainer > div{
+  /* border: 1px solid green; */
+  
+
+}
+
+.wishlistIcon{
+  width: 25px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  cursor: pointer;
+  transition: filter 0.3s;
+}
+
+.wishlistIcon:hover{
+  filter: brightness(0) saturate(100%) invert(99%) sepia(0%) saturate(0%) hue-rotate(84deg) brightness(104%) contrast(101%);
+
+}
+
+.sustBadge{
+  width: 20px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.addtocartButton{
+  width: 100%;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 10px;
+  
+}
+
+
+
+/*
+@media (max-width: 768px) {
+    .singleCard {
+        width: calc(50% - 10px); 
+      }
+    }
+    
+    @media (max-width: 480px) {
+        .singleCard {
+            width: 100%; 
+        }
+    }
+    
+ */
